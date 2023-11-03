@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/baseline_person_3_24"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/name_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/img_icon"
+        android:layout_marginEnd="16dp"
+        android:text="Student Name"
+        android:textSize="24dp"
+        />
+
+    <TextView
+        android:id="@+id/hobby_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Hobby"
+        android:textSize="24dp"
+        android:layout_alignLeft="@id/name_txt"
+        android:layout_below="@id/name_txt"
+        />
+
+
+
+</RelativeLayout>
